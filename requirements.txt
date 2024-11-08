@@ -7,3 +7,4 @@ tensorflow  # Facenet depends on TensorFlow
 mtcnn
 pandas
 matplotlib
+keras-facenet
