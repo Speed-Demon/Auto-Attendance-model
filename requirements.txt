@@ -1,10 +1,8 @@
-import streamlit as st
-import numpy as np
-from PIL import Image
-from joblib import load
-from keras_facenet import FaceNet
-from mtcnn.mtcnn import MTCNN
-import pandas as pd
-
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
+streamlit
+numpy
+Pillow
+joblib
+keras-facenet
+mtcnn
+pandas
+matplotlib
