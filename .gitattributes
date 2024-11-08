@@ -1,0 +1,2 @@
+*.h5 filter=lfs diff=lfs merge=lfs -text
+facenet_embedding_model.h5 filter=lfs diff=lfs merge=lfs -text
