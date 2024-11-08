@@ -9,5 +9,4 @@ pandas
 matplotlib
 keras-facenet
 scipy
-opencv-python
-
+opencv-python-headless
