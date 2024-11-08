@@ -6,3 +6,4 @@ keras-facenet
 mtcnn
 pandas
 matplotlib
+scipy
