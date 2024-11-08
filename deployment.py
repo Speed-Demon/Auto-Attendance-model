@@ -13,6 +13,7 @@ detector = MTCNN()
 # Load the models
 svm_model = load("svm_face_recognition_model.joblib")
 facenet_model = FaceNet()
+facenet_model.load_model('facenet_embedding_model.h5')
 label_encoder = load("label_encoder.joblib")
 
 # Define the functions
@@ -51,7 +52,7 @@ def predict_face(face_pixels):
 def predict_faces(image_path):
     faces, bounding_boxes = extract_faces(image_path)
     if not faces:
-        st.write("No faces detected with confidence >= 75%")
+        st.write("No faces detected with confidence >= 60%")
         return
 
     image = Image.open(image_path)
