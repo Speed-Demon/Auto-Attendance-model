@@ -1,10 +1,9 @@
 streamlit
 numpy
-Pillow
+pillow
 joblib
-keras-facenet
+keras
+tensorflow  # Facenet depends on TensorFlow
 mtcnn
 pandas
 matplotlib
-scipy
-cv2
