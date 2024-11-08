@@ -10,3 +10,4 @@ matplotlib
 keras-facenet
 scipy
 opencv-python-headless
+scikit-learn
