@@ -9,3 +9,4 @@ pandas
 matplotlib
 keras-facenet
 scipy
+cv2
